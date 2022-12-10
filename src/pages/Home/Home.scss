@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+
+  .title {
+    color: #252525;
+    letter-spacing: 1px;
+    font-size: 80px;
+  }
+}

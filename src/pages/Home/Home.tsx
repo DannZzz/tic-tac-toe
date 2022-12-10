@@ -19,6 +19,7 @@ const Home = () => {
 
   return (
     <div className="home">
+      <span className="title">{step.toUpperCase()}'s Step!</span>
       <Board setStep={setStep} board={board} setBoard={setBoard} step={step} />
     </div>
   );
